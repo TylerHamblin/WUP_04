@@ -61,9 +61,9 @@ The first quartile of both the High School and Lt High School are still below th
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-
-
-
+```{r include=TRUE,echo=FALSE}
+favstats( WORDSUM ~ DEGREE , data= mydata )
+```
 
 ## Inferential Results
 
