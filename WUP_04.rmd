@@ -79,7 +79,10 @@ conf_interval
 summary.aov(model1)
 ```
 
-
+```{r include=TRUE,echo=FALSE}
+par(mar = c(3, 15, 2, 2))
+plot(TukeyHSD(model1,conf.level = 0.98),las=2)
+```
 
 
 
