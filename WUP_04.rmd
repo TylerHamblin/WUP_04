@@ -55,6 +55,7 @@ labs ( x = "DEGREE" , y = "WORDSUM" , title = "WORDSUM Explained By DEGREE" ) +
 theme ( plot.title = element_text (hjust = 0.5, size = 16) )
 ```
 
+The first quartile of both the High School and Lt High School are still below the medians of all other groups suggesting that the level of education does affect scores. This is not enough evidence however and more tests need to be run to confirm this initial theory. 
 
 ### Numerical Descriptive Results
 
