@@ -91,5 +91,11 @@ As seen in the one way anova, the confidence interval test, and the graphical ve
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
 
+$H_0$: WORDSUM and DEGREE have no relationship amongst eachother
+
+$H_a$ WORDSUM is affected by a change in DEGREE 
+
+
+With the help of Chat GPT, the CandP helper files, and Ezra's R Code Website I was able to run a series of tests to decide whether or not WORDSUM test results had any correlation to a level of DEGREE. After running the commands for a boxplot, a one way anova test, a confidence level test, and the Tukey family-wise graph it could be confirmed that there was statistical significance represented in the data. Since higher levels of degrees produced higher results and lower levels of education produced the opposite we can confidently state that $H_a$ (alternative hypothesis) is correct and reject the $H_0$ (null hypothesis) that says there is no effect. 
 
 
