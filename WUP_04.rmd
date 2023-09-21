@@ -84,7 +84,7 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1,conf.level = 0.99),las=2)
 ```
 
-As seen in the one way anova, the confidence interval test, and the graphical version of the family-wise confidence level analysis, the LT High School and the High School seem to be the lowest performers on the WORDSUM test. The categories containing either High School or LT High School place their median the farthest away from the 0 mark suggesting a significance in statistical data. This confirms that as a students education continues they theoretically will begin to achieve higher scores on this exam. 
+As seen in the one way anova, the confidence interval test, and the graphical version of the family-wise confidence level analysis, the LT High School and the High School seem to be the lowest performers on the WORDSUM test. The categories containing either High School or LT High School place their median the farthest away from the 0 mark suggesting a significance in statistical data. The High School - Graduate and Lt High School - Graduate are the only two categories that don't include 0 in their confidence level suggesting a statistical significance. This confirms that as a students education continues they theoretically will begin to achieve higher scores on this exam. 
 
 # Discussion and Conclusion
 
